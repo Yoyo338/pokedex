@@ -62,3 +62,77 @@ figure{
     left : 10px;
     border-radius: 5px;
 }
+
+  /*Réinitilaisation de la liste déroulante*/
+  select {
+    appearance: none;
+    outline: 0;
+    border: 0 !important;
+    background: #F9F9F9;
+    background-image: none;
+    box-shadow: none;
+    font-size: 1.2em;
+  }
+
+  
+  /* Mise en forme de la div .select*/
+  .select {
+    position: relative;
+    width: 350px;
+    height: 45px;
+    overflow: hidden;
+    border-radius: 5px;
+    border: 1px solid #CED4DA;
+  }
+  
+  /* Mise en forme de la balise select*/
+  select {
+    text-align: center;
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding-left: 15px;
+    color: #555555;
+    cursor: pointer;
+  }
+
+  menu{
+    display: grid;
+    grid-template-columns: repeat(auto-fill,minmax(160px, 1fr));
+  }
+
+  /*Mise en forme des balises img dans la balise menu*/
+  menu img{
+    width: 20%;
+    margin: auto;
+    display: block;
+    transition: 1s;
+    padding: 20% 0 10% 0;
+    
+  }
+
+  menu li{
+    text-align: center;
+    list-style-type: none;
+    align-self: center;
+  }
+
+  menu :hover{
+    background-color: #b4babf;
+  }
+
+  menu:hover li:hover img {
+    width: 40%;
+    transition: 1s;
+    padding: 10% 0 0 0;
+  }
+
+  #tri {
+    text-align: center;
+    width: 10%;
+    height: 100%;
+    margin: 0;
+    padding-left: 15px;
+    color: #555555;
+    cursor: pointer;
+  }

@@ -29,12 +29,12 @@
       "name": "Salamèche",
       "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/4.png",
       "stats": {
-          "HP": 39,
-          "attack": 52,
-          "defense": 43,
-          "special_attack": 60,
-          "special_defense": 50,
-          "speed": 65
+          "HP": 40,
+          "attack": 60,
+          "defense": 49,
+          "special_attack": 90,
+          "special_defense": 30,
+          "speed": 70
       },
       "apiTypes": [
           {
