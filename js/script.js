@@ -74,8 +74,6 @@ async function loadData(numGeneration){
     .then(response => response.json())
     .catch(error => alert("Erreur : "+ error));
 
-    console.log(data);
-    console.log("4"+2)
 
     dataPokemon=data
     console.log(dataPokemon)
